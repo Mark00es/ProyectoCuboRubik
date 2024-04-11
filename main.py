@@ -2,7 +2,21 @@ class RubiksCube:
     def __init__(self):
         # Representación del cubo como una matriz tridimensional
         # Cada cara del cubo se representa con un número:
-        # 0: Blanco, 1: Rojo, 2: Verde, 3: Azul, 4: Naranja, 5: Amarillo        
+        # 0: Blanco, 1: Rojo, 2: Verde, 3: Azul, 4: Naranja, 5: Amarillo
+        self.cube = [
+            # Cara superior
+            [[0, 0, 0], [0, 0, 0], [0, 0, 0]],
+            # Cara frontal
+            [[1, 1, 1], [1, 1, 1], [1, 1, 1]],
+            # Cara derecha
+            [[2, 2, 2], [2, 2, 2], [2, 2, 2]],
+            # Cara trasera
+            [[3, 3, 3], [3, 3, 3], [3, 3, 3]],
+            # Cara izquierda
+            [[4, 4, 4], [4, 4, 4], [4, 4, 4]],
+            # Cara inferior
+            [[5, 5, 5], [5, 5, 5], [5, 5, 5]]
+        ]
 
     def __str__(self):
         # Representación visual del cubo
