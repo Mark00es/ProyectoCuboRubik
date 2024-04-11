@@ -10,7 +10,13 @@ class RubiksCube:
             [[1, 1, 1], [1, 1, 1], [1, 1, 1]],
             # Cara derecha
             [[2, 2, 2], [2, 2, 2], [2, 2, 2]],
-     
+            # Cara trasera
+            [[3, 3, 3], [3, 3, 3], [3, 3, 3]],
+            # Cara izquierda
+            [[4, 4, 4], [4, 4, 4], [4, 4, 4]],
+            # Cara inferior
+            [[5, 5, 5], [5, 5, 5], [5, 5, 5]]
+        ]
 
     def __str__(self):
         # Representación visual del cubo
